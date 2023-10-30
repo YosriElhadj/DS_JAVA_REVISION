@@ -1,5 +1,6 @@
 public class Etudiant3eme extends Etudiant{
     private String branche;
+    Etudiant etudiant;
 
     public Etudiant3eme(String branche) {
         this.branche = branche;
@@ -20,6 +21,6 @@ public class Etudiant3eme extends Etudiant{
 
     public void AjouterUneAbsence()
     {
-        setMoyenne(getMoyenne());
+        setMoyenne(getMoyenne()-0.5f);
     }
 }

@@ -16,7 +16,7 @@ public class EtudiantAlternance extends Etudiant{
 
     @Override
     public void AjouterUneAbsence(){
-        salaire=50;
+        setSalaire(getSalaire()-50);
     }
 
     @Override
